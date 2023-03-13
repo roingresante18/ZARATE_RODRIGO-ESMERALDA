@@ -11,12 +11,15 @@ Nuestro publico objetivo son personas adultas responsables de sus domicilios, in
 https://fonts.google.com/specimen/Josefin+Sans?query=Josefin+Sans
 
 LOGO DE LA EMPRESA
-![LOGO DE LA EMPRESA](/entregable%201/img/logo%20100x50.jpg)
+![ LOGO DE LA EMPRESA](/entregable%201/img/logo%20100x50.jpg)
 
 ! paleta de colores# ZARATE_RODRIGO-ESMERALDA
 
-VISTAS FIGMA HEADER Y FOOTER
-![LOGO DE LA EMPRESA](/entregable%202-FIGMA/componentesHeader%20y%20footer.pdf)
+VISTAS FIGMA 
+![ HEADER Y FOOTER](/entregable%202-FIGMA/componentesHeader%20y%20footer.pdf)
 
-VISTAS FIGMA MOBILE
-![LOGO DE LA EMPRESA](/entregable%202-FIGMA/Mobile.pdf)
+VISTAS FIGMA
+![ MOBILE](/entregable%202-FIGMA/Mobile.pdf)
+
+VISTAS FIGMA
+![ DESKTOP](/entregable%202-FIGMA/Desktop.pdf)
