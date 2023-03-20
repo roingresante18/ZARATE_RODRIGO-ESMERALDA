@@ -5,25 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./DetailProduct.css">
+    <link rel="stylesheet" href="./cart.css">
 </head>
 <body>
     <div class="nav">
         <a href="home.html">Inicio</a>
         <a href="DetailProduct.html">Producto</a>
-        <a href="medio_pago.html">Carrito</a>
+        <a href="cart.html">Carrito</a>
         <a href="recomendacion.html">Recomendaciones</a>
         <a href="ubicacion.html">Ubicacion</a>
     </div>
-    <section class="main">
-        <div class="item1">
-            <h1 class="H">Combo 1- COD-1034</h1>
-            <img src="./IMG/combo8.jpg" class="imagen" alt="">
-            <h2 class="H">$3.500.00</h2>
-            <p class="p">*El precio ya incluye los bidones de 5Lts nuevos y precintados sin necesidad de intercambiar </p>
-            <p class="p">Con bidones reutilizados e intercambiables el valor del combo es menor. Consultar.</p>
-          </div>
-    </section>
+
+        <div class="contenedor">
+           <div class="main">
+                <img class="imagen" src="./IMG/combo8.jpg" alt="">
+                <div class="main2">
+                  <button class="button">-</button>
+                  <p>1</p>
+                  <button class="button">+</button>
+                  <h3>$5000.00</h3>
+                </div>               
+           </div>
+           <div class="main">
+                 <img class="imagen" src="./IMG/combo2.jpeg" alt="">
+                 <div class="main2">
+                  <button class="button">-</button>
+                  <p>1</p>
+                  <button class="button">+</button>
+                  <h3>$2000.00</h3>
+                </div>
+           </div>
+           <div class="main">
+            <h2>Total: $7000</h2>
+           </div>
+        </div>
 
     <div class="footer">
         <div class="footer2">
@@ -37,6 +52,5 @@
          <a href=""><img class="imagen3" src="./img/instagram.jpg" alt=""></a>
        </div>
      </div>
-        
 </body>
 </html>
