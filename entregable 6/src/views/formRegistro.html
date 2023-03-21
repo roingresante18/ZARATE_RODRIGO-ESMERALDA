@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/formRegistro.css">
+</head>
+<body>
+    <div class="nav">
+        <a href="/home">Inicio</a>
+        <a href="/DetailProduct">Producto</a>
+        <a href="/cart">Carrito</a>
+        <a href="/formInit">Inicio Sesion</a>
+        <a href="/formRegistro">Registro</a>
+    </div>
+    
+
+    <form action="/register" method="post" class="formulario">
+        <div class="formulario1">
+        <label for="name">Nombres</label>
+            <input type="text" placeholder="Ingrese sus Nombres" name=" name" id="name"  required>
+        <label for="Apellido">Apellido</label>
+            <input type="text" placeholder="Ingrese su apellido" name=" Apellido" id="Apellido"  required>
+        </div>
+        <div class="formulario1">
+        <label for="number">Numero de Celular</label>
+            <input type="number" placeholder="Ingrese Celular" name="number" id="number" required/>
+        
+        <label for="email">email</label>
+            <input type="email" placeholder="Ingrese su EMAIL" name="email" id="email" required/>
+        </div>
+        <div class="formulario1">
+        <label for="dir">Direccion</label>
+            <input type="text" placeholder="calle" name=" dir" id="dir"  required>
+        <label for="alt">altura</label>
+            <input type="number" placeholder="numero" name=" alt" id="alt"  required>
+        <label for="Barrio">Barrio</label>
+            <select name="Barrio" id="Barrio">
+            <option selected value="arg">Centro</option>
+            <option value="br">Barrio Nuevo</option>
+            <option value="co">Sur Argentino</option>
+            </select>
+        </div>
+
+        <label for="username">USUARIO</label>
+        <input type="text" placeholder="Usuario" name=" username" id="username"  required>
+
+        <label for="password">Contraseña</label>
+        <input type="password" placeholder="Ingrese su contraseña" name="password" id="password" required>
+                             
+        <label for="checkbox">Deseo recibir promociones</label>
+        <input type="checkbox" placeholder="" name="checkbox" id="checkbox"/>
+   
+        <button type="reset">RESET</button>
+        <button type="menu">ENVIAR</button>
+    </form>
+
+    <div class="footer">
+        <div class="footer2">
+          <h2>Contacto</h2>
+          <p>Celular: 3755-557599</p>
+          <p>e-mail: cleanesmeralda@gmail.com</p>
+       </div>
+       <div class="" style="height:100px;">
+         <a href="https://www.facebook.com/producto.esmeralda"><img class="imagen3" src="./img/facebook.jpg" alt=""></a>
+         <a href="https://www.whatsapp.com/catalog/5493755557599/?app_absent=0">  <img class="imagen3" src="./img/wasap.jpg" alt=""></a>
+         <a href=""><img class="imagen3" src="./img/instagram.jpg" alt=""></a>
+       </div>
+     </div>
+
+</body>
+</html>

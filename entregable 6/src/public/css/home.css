@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+:root{
+    --encabezado: rgb(12, 126, 45);
+    --letrasblanco: white;
+}
+.body {
+  margin: 0;
+  overflow: hidden;
+}
+/* ------------------HEADER------------ */
+.nav {
+    width: 100%;
+    background-color:var(--encabezado);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: auto;
+    padding: 0px;
+  }
+  .nav a {
+    color: var(--letrasblanco);
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+  .nav a:hover {
+    background-color: #ddd;
+    color: rgb(18, 192, 15);
+  }
+  
+  /* ------MAIN----------- */
+
+  .contenedor {  
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: auto;
+  }
+  .main {
+    flex: 65%;
+    background-color: white;
+    padding: 10px;
+    font-style:inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--encabezado);
+  }
+  .imagen {
+    background-color: #aaa;
+    width: 100%;
+    padding: 0px;
+    height: 500px; 
+    margin: 20px; 
+  }
+  .lateral {
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    color: var(--encabezado);
+    margin: 10px;
+  }
+  .imagen2 {
+    background-color: #aaa;
+    width: 100%;
+    padding: 0px;
+    height: 200px; 
+    margin: 5px; 
+  }
+  
+    /* -----------------FOOTER----------------------- */
+    .footer {
+      width: 100%;
+      height: 150px;
+      padding: 10px;
+      background: var(--encabezado);
+      color: var(--letrasblanco);
+      display: flex;
+      flex-direction: row;
+      align-items:center;
+      justify-content: space-around;
+    }
+    .imagen3 {
+      width: 20%;
+      height:50px; 
+      margin: 10px; 
+    }
+  
+
+    @media (max-width: 800px) {
+      .nav{
+        flex-direction: column;
+        justify-content: flex-start;
+      }
+      .contenedor {   
+        flex-direction:column;
+        justify-content: flex-start;
+      }
+      .footer{
+        flex-direction:column;
+        justify-content: flex-start;
+        height: 300px;
+        flex-direction: column;
+      }
+      .imagen {
+        width: 100%;
+        padding: 0px;
+       
+        margin: 10px; 
+      }
+      
+  
+    }
